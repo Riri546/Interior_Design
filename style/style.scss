@@ -1,0 +1,19 @@
+@import 'vars';
+@import 'position';
+@import 'index';
+@import 'blog';
+@import 'blogDitails';
+
+* {
+    margin: $marginNone;
+    padding: $paddingNone;
+}
+
+body {
+    font-family: $fontText;
+    font-family: $fontTitle;
+}
+
+a {
+    text-decoration: none;
+}
